@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 0 auto;
 }
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
@@ -76,4 +80,10 @@ a {
 .txt.txt-gr  
 {
     color: green;
+}
+.side-menu a:hover {
+    scale: 1.1;
+}
+.side-menu a:active {
+    scale:1;
 }
